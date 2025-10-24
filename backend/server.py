@@ -1,10 +1,11 @@
 import os
 from flask import Flask, request, jsonify
+from flask_cors import CORS 
 from datetime import datetime
 from collections import defaultdict
 
 app = Flask(__name__)
-
+CORS(app)
 @app.route("/api/v1/projects/<project_id>/schedule", methods=["POST"])
 def schedule_tasks(project_id):
     try:
@@ -70,5 +71,6 @@ def schedule_tasks(project_id):
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render provides PORT
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)
+
