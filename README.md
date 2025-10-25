@@ -14,6 +14,12 @@ A full-stack application that provides intelligent task scheduling based on depe
 - **Dynamic Dependency Updates**: Modify task dependencies in real-time
 - **Persistent Storage**: Tasks are automatically saved to localStorage
 
+
+## Live Application
+
+- **Frontend**: [https://smart-scheduling-api.vercel.app/](https://smart-scheduling-api.vercel.app/)
+- **Backend API**: [https://smart-scheduling-api-2.onrender.com](https://smart-scheduling-api-2.onrender.com)
+
 ## 🏗️ Architecture
 
 The project consists of two main components:
@@ -191,10 +197,6 @@ Task D: "Write Unit Tests" (depends on: Task C)
 
 ## 🚀 Deployment
 
-### Live Application
-
-- **Frontend**: [https://smart-scheduling-api.vercel.app/](https://smart-scheduling-api.vercel.app/)
-- **Backend API**: [https://smart-scheduling-api-2.onrender.com](https://smart-scheduling-api-2.onrender.com)
 
 ### Backend Deployment
 
@@ -253,9 +255,6 @@ The frontend is configured to connect to the deployed API at [https://smart-sche
 - Tailwind CSS 3.4.18
 - Axios 1.12.2
 
-## 📄 License
-
-This project is part of the Appsian Coding Assignment.
 
 ## 🐛 Known Issues
 
